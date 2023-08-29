@@ -1,0 +1,48 @@
+
+select  nom  from  llx_societe  where  fk_typent = 0
+
+update  llx_societe  set fk_typent = 103 where nom like '%association%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%amical%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%club%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%ASPTT%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%FEDERATION%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%RANDONN%' and nom not like '%HOTEL%' and nom not like '%MAISON%' and nom not like '%COMITE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%FAMIL%RURALE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%louveteau%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%scouts%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%eclaireurs%' and fk_typent = 0
+update  llx_societe  set fk_typent = 103 where nom like '%scout et guide%' and fk_typent = 0
+
+
+ 
+ 
+update  llx_societe  set fk_typent = 2 where nom like '%accueil de jeunes%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%accueil % loisir%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%accueil %hebergement%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where (nom like '%ALAE%'  or nom like '%ALSH%') and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%ECOLE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%ESPACE JEUNES%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%CENTRE SOCIAL%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%CENTRE SOCIo%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%CLAE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%CLSH%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%AJSH%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%GROUPE SCOLAIRE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%SCOLAIRE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%DIRECTION%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%POLE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%SALLE%jeune%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%SALLE%fete%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like 'SERVICE%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%lycee%' and fk_typent = 0;
+update  llx_societe  set fk_typent = 2 where nom like '%communal%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%RANDONN%' and nom not like '%HOTEL%'  and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%office%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%musee%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%M.J.C%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%Maison%jeune%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%MAISON DE QUARTIER%' and fk_typent = 0
+update  llx_societe  set fk_typent = 2 where nom like '%FOYER%SOCI%' and fk_typent = 0
+
+
+ 

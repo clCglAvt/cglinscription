@@ -1,0 +1,35 @@
+**** liste des tiers en doublon
+SELECT s.nom, COUNT(s1.rowid) +1
+FROM `llx_societe` as s  , `llx_societe` as s1
+WHERE s1.rowid != s.rowid and s.nom = s1.nom
+and s.rowid = (select MAX(rowid) from llx_societe as s2 where s2.nom = s.nom)
+group by s.nom
+order by 2 desc
+
+*** liste des contact en doublon
+
+*** même nom, prenom et tiers
+SELECT s.lastname, s.firstname, s.fk_soc, COUNT(s1.rowid) +1
+FROM llx_socpeople as s  , llx_socpeople as s1
+WHERE s1.rowid != s.rowid and s.lastname = s1.lastname and s.firstname = s1.firstname and s.fk_soc = s1.fk_soc
+and s.rowid = (select MAX(rowid) from llx_socpeople as s2 where s.lastname = s2.lastname and s.firstname = s2.firstname and s.fk_soc = s2.fk_soc)
+group by s.lastname,  s.firstname, s.fk_soc
+order by 4 desc
+*** même nom, prénom et tiers différent
+SELECT s.lastname, s.firstname, COUNT(s1.rowid) +1
+FROM llx_socpeople as s  , llx_socpeople as s1
+WHERE s1.rowid != s.rowid and s.lastname = s1.lastname and s.firstname = s1.firstname and s.fk_soc != s1.fk_soc
+and s.rowid = (select MAX(rowid) from llx_socpeople as s2 where s.lastname = s2.lastname and s.firstname = s2.firstname and s.fk_soc != s2.fk_soc)
+group by s.lastname,  s.firstname
+order by 3 desc
+***
+
+*** tables liées au contact
+cglinscription_bull_det, agefodd_stagiaire, agefodd_formateur, agefodd_contact, user, 	 element_contact (remplie ??)
+SELECT * FROM `COLUMNS` 
+WHERE `COLUMN_NAME`= 'fk_socpeople' and `TABLE_SCHEMA` = "cglavtdev"
+*** table liée au tiers
+socpeople, cglinscription_bull, facture, commande, agefodd_session,  agefodd_stagiaire, actioncomm, categorie, societe_remise_except, projet, propal
+
+SELECT * FROM `COLUMNS` 
+WHERE `COLUMN_NAME`= 'fk_soc' and `TABLE_SCHEMA` = "cglavtdev"

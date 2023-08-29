@@ -1,0 +1,13 @@
+- attention, certaines différences sont totalement explicable, en tout cas jusqu'au BU201508-0099
+select ref, rowid, paiement, facture 
+from 
+(select ref, rowid, 
+(select sum(pt) from llx_cglinscription_bull_det as bd_paie where  bd_paie.fk_bull = b.rowid and bd_paie.type = 1 and action not in ('S','X')) as paiement, 
+(select sum(qte*pu*(100-rem)/100) from llx_cglinscription_bull_det as bd_paie where  bd_paie.fk_bull = b.rowid and bd_paie.type = 0 and action not in ('S','X')) as facture
+
+from llx_cglinscription_bull as b
+where (ref like 'BU2015%' or ref like 'LO2015%')) as T
+
+
+ where paiement <> facture 
+ 

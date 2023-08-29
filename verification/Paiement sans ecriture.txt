@@ -1,0 +1,5 @@
+select f.ref, p.amount, p.rowid as paiement, f.rowid as facture 
+from llx_paiement as p
+left join llx_paiement_facture as pf on pf.fk_paiement = p.rowid
+left join  llx_facture as f on pf.fk_facture = f.rowid
+where p.fk_bank = 0 or isnull(p.fk_bank)

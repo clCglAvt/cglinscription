@@ -1,0 +1,1360 @@
+﻿# Dolibarr language file - fr_FR - inscription 
+# Version CAV 2.7
+# Version CAV 2.8
+#
+#
+# ATTENTION
+# MESSAGE POUR CLAUDE
+# - AVANT TOUT - Il faut  vérifier à la prod si des modif nt été faites depuis la dernière version
+# - APRES MODIF  -  Il faut sauvegarder la modif dans le fichier cglinscription de Arrigas.lang 
+#
+#
+# MESSAGE POUR MATHIEU
+# - APRES MODIF  -  Il faut sauvegarder la modif dans le fichier cglinscription de boutique.lang 
+# et signaler qu'il y a eu des modif à CLAUDE
+#
+
+CHARSET=UTF-8
+
+# traduction jour et mois
+Monday=Lundi
+Tuesday =Mardi
+Wednesday=Mercredi
+Thursday=Jeudi
+Friday= Vendredi
+Saturday=Samedi
+Sunday=Dimancje
+Janv=Janvier
+Feb=Février
+Mar=Mars
+Apr=Avril
+Mai=Mai
+Jun=Juin
+Jul=Juillet
+Aug=Août
+Sep=Septembre
+Oct=Octobre
+Nov=Novembre
+Dec=Décembre
+
+Module875120Name=4 Saisons
+Module875120Desc=Inscription et Location
+Permission875121=Voir les bulletins d'inscriptions
+Permission875122=Inscrire
+4SaisonsDesc=Ce module permet de réaliser les inscriptions aux activités de pleine nature, les contrats de locations Vélo et ls réservations d'activités annexes.
+
+#menu general
+AdmInscription=Inscriptions en boutique
+MenuLstBulletin=Liste des inscriptions
+ListeDesInscriptions=Liste des inscriptions pour prochains départs
+ListeDeparts=Liste des participants
+CglMenuNvDepart=Nouveau départ
+CglMenuNvProduit=Nouveau produit
+MenuFeuilleRoute=Liste des participants	
+GestInscription=Service et Départ
+LstDepAnt=Départs antérieurs
+LstDeparts=Liste des Départs
+FactMoniteur=Suivi Facturation Départs
+ListBull=BU du départ/Remises
+FacturationIns=Facturations des Inscriptions
+ArchivagIns=Archivages des Inscriptions
+ArchivageIns=Archivages des Inscriptions de l'année en cours
+ArchivagLoc=Archivage des locations de l'année en cours 
+ArchivagResa=Archivages des Réservations de l'année en cours
+FacturationMoniteur=Suivi Facturation Moniteur
+TiCatServices=Catalogue des services
+TiCatProd=Catalogue des produits
+TiGestSites=Gestion des sites
+TiGestMoniteur=Gestion des moniteurs
+TiCompta=Comptabilité
+TiListe=Liste
+TiVerifi=Vérifications
+TiInscription=Inscription
+TiConfLoc=Conflits de location
+TiNewInsc=Nouvelle inscription
+AgfMenuSessNew=Nouveau départ
+ConflLoc=Conflit de Location
+VeloEnConflit=ce vélo est réservé dans un autre contrat
+AlertConflitNonVerifier=Attention, PAS DE GESTION DES CONFLITS pour ce[s] matériel[s]. VERIFIER dans le contrat
+
+
+MenuTestFcCodeVentilation=Bulletin et facture sans code ventilation
+MenuTestANCVCorr=ANCV Virements et dépôt de chèque
+MenuTestFactPayee=Facture encore notée impayée
+MenuLstIns=Inscription en boutique
+TiActivites=Activités
+
+CglLocation=Location Vélo
+CglResa=Réservation
+
+DefLibelle=Ne pas utiliser le double_quote (sous le 3) dans cette saisie
+# Général
+Euros=€
+
+# Parametrage
+ParametreInscription=Paramètres utiles au module des inscriptions
+ParametreLocation=Paramètres utiles au module des location
+ParameterInutilise=Paramètres inutilisés
+ParametreGeneral=Paramètres généraux
+AcompteJustPaiement=Les acomptes sont justes des justificatifs de paiement. Donc HT et intervenant comme paiements d'une facture et non ligne de facture
+TauxTVAFrancais=Taux de TVA standard en France
+DeparSeuilRentabilite=Seuil de rentabilite d'un départ (nb places)
+ParticipantInconnu=Code contact quand le participant est inconnu à la pré-inscription 
+TypeTiers=Type du tiers créé par Inscription en tant que Tiers Particulier
+TypeParticipant=Type standard des participants
+RandoMat=Force la mise  en oeuvre la gestion des rando et du matériel prété (sacoche, pompe...)
+UrlLoc=Nom de la page de saisie du contrat
+UrlInsc=Nom de la page de saisie dee l'inscription
+UrlFact=Nom de la page de facturation
+VentilAcompte=compte de ventilation des accomptes
+GoogleLoc=Valider si les évènement de location sont transmis à GoogleAgenda
+
+# Produit
+RefObl=La référence est obligatoire
+
+# Saisie Inscription : Tiers
+TiTiers=Tiers
+TiNbPart=Nb
+RechercheTiers=Rechercher un tiers
+SelectAct=Sélectionner ce départ
+SelectPart=Sélectionner ce participant
+CreerPart=Créer un nouveau participant
+TiersLieuVacances=Lieu de vacances
+Phone=Téléphone
+PhoneSup=Téléphone supp
+Mail=Mail
+Adresse=Adresse
+ModifTiers=Modification
+CreationTiers=Création
+CreerContact=Création contact du tiers
+Nom=Nom
+Prenom=Prénom
+Civilite=Civilité
+Source=Origine
+BtCreerNouvTiers=Nouveau Tiers
+Infobull=Information du bulletin
+BulletinFacture=Ce %s sera-t-il facturer?
+BulletinNonFacturable=Ce %s ne sera pas facturé
+BulletinFacturable=Ce %s sera facturé
+LbNonModifcarPaye=Impossible de rendre ce %s non facturable, car il existe des paiements
+
+
+# TiSuivi=Suivi - remplacement temporaire
+TiSuivi=Suivi Client dans le dossier 
+#TiSuivi=Action à mener
+BtCreerBulletin=Créer le bulletin
+BtCreerContrat=Créer le contrat
+BtCreerResa=Créer la réservation
+BtCreerBulletinSuivi=Créer le bulletin dans le dossier suivi sélectionné
+BtCreerContratSuivi=Créer le contrat dans le dossier suivi sélectionné
+BtCreerResaSuivi=Créer la réservation dans le dossier suivi sélectionné
+LstAcompteAUtiliser=Liste des Acomptes non utilisés pour ce client
+LstActivite=Liste des Facturations
+LstPropal=Liste des propositions
+LstContAct=Liste des contrats et activités antérieures
+DossierSuivi=Liste des dossiers du client
+SuiviNvDossier=Nouveau dossier :
+LsFactureCoeurDolibarr=Liste des factures faites directement dans Dolibarr
+N_Bull=Numéro
+Montant=Montant
+BuCnt=Bulletin ou Contrat
+Reglement=Règlement
+BuLoFacture=Facturé par
+AgfFormTypeSessionInter=Individuel
+AgfFormTypeSessionIntra=Groupe constitué
+BullIndividuel=Commande Individuelle
+BullGroupe= Commande Groupe Constitué
+TitrInesAct=Inscriptions aux activités
+CreationParticipant=Création d'un participant
+ListParticipAct=Liste des départs et des participants
+DupPart=Duplication de la participation sur le même participant
+DupAct=Duplication de la participation sur la mème activité
+
+RemiseGen=Saisie des remises
+ErrEnrRem=Erreur d'enregistrement Remise %s*
+IncRem=Remise non definie:%s
+RemiseGenLoc=Remise
+RemiseFix=Remise fixe
+RemPourc=Remise (%%))
+RemFix=Montant (€))
+RemPrctg=Ratio (%%))
+AideRem=Cette remise se substitue aux remises déjà inscrites
+AideRem1=La remise, accordée pour l'ancienne activité, a été remise à zéro. Il faut la refaire si nécessaire.
+AideMajRem=Cette remise sera faite sur toutes les lignes concernées dans le détail des matériels loués
+AlerteLignesSelect=Attention : penser à sélectionner les lignes concernées par cette remise
+RemRaison=Commentaires
+RemRaisonFixe=Ce texte apparaîtra sur la facture (ex: n° de bon-cadeau)
+RemRaison=Libellé précisant la remise
+RemRaisonFixe=, paraissant sur la facture (ex: n° de bon-cadeau)
+RemSessionInsc=pour les Participation(s) de(s) départ(s)
+RemSessionLoc=Remise sur toutes les lignes du contrat
+TiRemParticipation=Remises accordées
+BtEnregistrer=Enregistrer
+BtEnvoiMail=Envoyer Mail
+BtEnvoiSMS=Envoyer SMS
+BtModifier=Modifier
+SelectSmsModel=Sélectionner un modèle de Sms
+
+StripeNomPayeur=Nom du payeur
+StripeMttPaye=Montant à payer
+StripeMailPayeur=Mail à qui adresser l'url de paiement
+StripeMobilePayeur=Numéro de mobile à qui adresser l'url de paiement
+AidMnttstripeLoc=Aide à la saisie - 30% du montant total
+AidMnttstripeInsc=Aide à la saisie - solde
+LibCBStripeInsc=Libelle d'identification sur paiement en ligne pour paiement Inscription
+LibCBStripeLoc=Libelle d'identification sur paiement en ligne pour paiement Location
+LibelleCBMailClient=Faut-il envoyer une copie du mail de confirmation de paiement au payeur vers le client Dolibarr?
+LibelleMailInscResPayeur=Faut-il envoyer une copie du mail de réservation/inscription vers tous les payeurs Stripe ayant déjà payé?
+LibelleStripeMailModelInsc=Modèle du message automatique à envoyer lors de l'inscription 4 saisons définitive 
+LibelleStripeMailModelRes=Modèle du message automatique à envoyer lors de la réservation définitive des vélos
+LibelleStripeMailTemplConf==Modèle du message automatique à envoyer pour confirmer la réception du paiement en ligne
+LibelleSuiviPrioriteAuto=Priorite du dossier quand un échange a été créé de façon automatique ou par défaut à la création du dossier
+LibelleStripeModePaiement=Mode de paiement utilisé par Stripe
+LibelleIntentAutoConf=Intention avec Confirmation automatique (il faut le laissé à Yes pour le moment)
+LibelleUserStripe=User utilisé lors des traiements automatique de Stripe
+LibelleCompteStripe=Compte bancaire utilisé lors des traiements automatiques de Stripe
+LibelleCompteVirementStripe=Compte bancaire destinataire des virements de Stripe
+LibelleNbMaxLigneStripe=Nombre maximun de lignes retournées par Stripe
+LibelleCodeComptableFrais=Code Comptable pour Frais Stripe
+LibelleSuiviFactPayeStripe=Dossier Suivi permettant d'accuser réception des paiements de facture du coeur
+LibelleProductAcompteAcquis=Produit spécifique pour facturer un acompte non remboursé
+LibelleNbAnnee=Nombre d'années affichées pour les analyses financières
+LibelleAnneChgPlanComptable=Année d'un éventuel changement de plan comptable
+LibStripeCarteRef=<reference acompte>
+TxtEchEncs=demandes Stripe encaissees
+TxtEchEnc=demande Stripe encaissee
+TxtEchEnc1s=restantes
+TxtEchEnc1=restante
+TxtEchEnc0=Encaissement via Stripe effectué( récapitulatif: %s %s et %s %s)
+TxtEchEnc10=Réception du paiement en ligne de %s € payé par %s
+TxtEchRes0=Le contrat %s est payé
+TxtEchRes1=à hauteur de 30%%
+TxtEchRes11='Paiement Total du contrat %s fait
+TxtEchRes12=%s  demande Stripe créée n'a pas été payée 
+TxtEchRes12s=%s  demandes Stripe créées n'ont pas été payées
+TxtEchIns0=Le bulletin %s est payé.
+TxtEchIns1=Paiement Total du bulletin %s fait.
+ErrorStrpeDejaPaye=Cette demande de paiement a déjà été réglée
+ErrorStrpeAnnule=Cette demande de paiement a été annulée
+
+# création virement/frais Stripe
+CreerVir=créer virement(s) ou/et frais
+StripeDolVir=EcritureStripe
+RapStripe=Virements et Frais Stripe
+StripeVirDOlibarr=Il s'agit de la création des ecritures Dolibarr traçant les virements et les  frais Stripe, en vue du rapprochement Stripe
+EcritureDolibarr = Ecriture Dolibarr
+MttDif=-- Montant différent entre Dolibarr et Stripe"
+LibErrStripeDol= -- Il existe %s
+Mtt=Montant:%s
+LibCptePmtStripe=Penser à renseigner le compte bancaire affecté aux payements Stripe
+LibCpteVirStripe=Penser à renseigner le compte bancaire sur lequel arrive les virements fait par Stripe
+LibNbMaxLigStripe=Penser à renseigner le nombre maximun de lignes que Stripe renvoie lors des interrogations, en général 100
+LibCodeComptableFraisStripe=Penser à renseigner le compte comptable pour les frais Stripe
+TitCreerVirmentFrasStripe = Confirmez la création dans Dolibarr
+QuestCreerVirmentFrasStripe = Voulez-vous la création de %s virement%s et %s ecriture%s de frais STRIPE.
+
+StripeVerifPaiementNonPropag=Paiements non intégrés
+StripeIntegrationVirFrais=Ecritures Virement et Frais
+
+#Suivi
+MesSuiviConfDesc=Réception du paiement en ligne pour %s  (récapitulatif: %s encaissé(s)/ %s restant à encaisser)
+MesSuiviConfDesc1=Réception du paiement en ligne de %s € payé par %s. <br>%s réservé
+MesSuiviFact=Réception du paiement en ligne de %s € payé par %s.
+MesSuiviConfDescComp=<br>\n Bulletin déjà facturé - il faut repasser la facturation pour prendre en compte ce nouveau paiement
+MesSuiviNOKTI=Encaissement Stripe demandé et non abouti
+MesSuiviNOKDesc=%s vient de chercher à payer par Stripele montant de  %s €  et la demande n'a pas pu aboutir chez Stripe
+MesSuiviNOKDescComp=\n Le possesseur de la carte s'est identifie : %s
+MesSuiviResTi=%s payé et RESERVE
+MesSuiviResLocTi=%s  partiellement  payé et RESERVE
+MesSuiviFectTi=%s payée
+MesSuiviConfTi=%s - Paiement partiel en ligne effectué
+MesSuiviResDescComp1=A encaisser: une demande Stripe créée n'a pas été payée
+MesSuiviResDescCompN=A encaisser: %s demandes Stripe créées n'ont pas été payées
+MesActionEchgPmtLigne='Today: Vérifier le %s %s.'
+MesActionEchgPmtLigneFact='paiement de la facture'
+MailConfPaiement=Un mail de confirmation du paiement vous a été envoyé
+MesFactNonTrouvée=Facture %s non trouvée
+//MesSuiviInscTi=Le bulletin %s est réservé
+//MesSuiviInscDesc=Paiement Total du bulletin %s fait.
+//MesSuiviConfTi=Encaissement via Stripe effectué (récapitulatif: %s encaisse/%s restant)
+//MesSuiviConfDesc=Réception du paiement en ligne de %s € payé par %s//MesSuiviResTi=Le contrat %s est payé
+//MesSuiviResTiComp=à hauteur de 30%% - Donc le matériel réservé.
+//MesSuiviResDesc=Paiement Total du contrat %s fait.
+//MesSuiviResDescIncComp=Paiement du contrat %s fait : %s € réglé sur %s €.
+//MesSuiviResDescComp1=Mais une demande Stripe créée n"a pas été payée
+//MesSuiviResDescCompN=Mais %s demandes Stripe créées n"ont pas été payées
+
+#Facture
+QstFactImp=Bulletin à facturer
+QstBullInsRegle=La facturation sera impossible car le paiement et le facturé ne sont pas identiques - Vous devez modifier le bulletin pour permettre la facturation
+QstBullInsMon=La facturation sera impossible car le moniteur est absent - Vous devrez modifier le bulletin avant la facturation
+QstBullIns=La facturation sera impossible car le moniteur est absent et car le paiement et le facturé ne sont pas identiques - Vous devez modifier le bulletin pour permettre la facturation
+
+NumeCheque=Chèque/Virement
+TotalFact=Total de la facture
+Totalpaimnt=Total des paiements encaissés
+TotalpaimntStripe=Total des paiements Stripe restant à encaisser
+ListPaiemt=Liste des paiements effectués
+Solde=Solde
+Activite=Produit
+RechercheContact=Recherche d'un participant
+DetParticipation=Détail d'une participation
+Nom_Prenom=Participant
+Lieu=Lieu
+Depart=Départ
+Heure=Heure
+Age=Age
+PU=PU
+PT=PT
+
+Naissance=Dt Nais.
+AgeDtNais=Age ou Date naissance
+DateDepart=Date du départ
+PersRec=Personne à prévenir en cas d'accident
+RendezVous=Rendez-vous pour chaque départ
+RendezVousCourt=Rendez-vous 
+Parent=Parenté
+NomTiers=Nom du client
+NomFournisseurs=Nom du fournisseur
+NbPart=Nb Particp
+Session=Départ
+AideCouleurDepart=BLEU pour un départ en court de remplissage \n ROUGE pour un départ dont le nombre de participants est inférieur à %s - Ce seuil de rentabilité  peut être modifié dans Configuration/Divers  variable CGL_DEPART_SEUIL_RENTABILITE
+LbTypeRemise=Type de remise
+LbLibelRemise=Sa description
+TiMttSessionPaye=Montant réglé
+TiMttSessionDu=Montant du au titre du départ
+TiTiers=Client
+BtSupDep=Annuler le départ
+DepSession=Le départ %s est en depassement
+
+#Départ
+AgeNonRenseigne=%s PAX avec âge non renseigné
+AgfLieu=site
+AgfFormIntitule=Intitulé du produit
+AgfFormIntituleCust=Intitulé du départ
+AgfFormTypeSession=Type du produit
+UNAgfFormateur=Moniteur
+IncForm=Formateur non affecté
+NbFam=Nb Part.
+AgfNote=Note
+Url_Loc=Url de localisation du site
+InfoMoniteurTVA=Si c'est un moniteur de CAV, le relier au tiers CIGALEAVENTURE. Sinon vérifier que ce moniteur a une société avec l'information "assujetti  ou non à la TVA" correctement renseignée
+HeureDebut=Début
+HeureFin=Fin
+heured=Début
+heuref=Fin
+nbplace=Nb Places
+nbInscrit=Nb Inscrits
+nbpreInscrit=Nb Pré-inscrits
+nbEncoursInscrit=Nb Inscriptions en brouillon
+moniteur=Moniteur
+Montelephone=Son téléphone
+Monemail=Son email
+Civility=Civilité
+DateInfo=Date de la saisie
+TTC=Prix
+institulecusto=Départ
+ModePaiement=Mode de paiement
+InfoProcAcompte=Pour utiliser cet acompte/avoir, vous devez encaisser dans le bulletin, seulement le montant actuellement payé par le client. Ensuite, demander une facturation de ce bulletin. Aller dans Facture (cœur de Dolibarr), payer la facture avec cet acompte/avoir. Puis ensuite, revenir Archiver le bulletin 
+Org=Org.
+Tireur=Tireur
+Date=Date
+SomEncais=Somme encaissée
+TVANormal=TVA 20%%
+TVACommissionnement=TVA sur la commission
+AcompteBull=Acompte Commande 4 saisons :
+AideNomTiers=Libellé pour une société, Prénom Nom pour un individu
+FiltreSessionspassees=Afficher les sessions passées
+TiParticipationCree=Nouvelle participation
+TiRemiseInsc=Remise ou Bon cadeau
+TiModParticipation=Changer le départ des participations sélectionnées
+TiDelParticipation=Suppression des participations sélectionnées
+BtChoixParticipationCree=Créer
+BtChoixParticipationMod=Remplacer
+BtModRemPartFix=Appliquer la remise
+BtModRemPart=Appliquer la remise
+BtModRemPartPrct=Appliquer la remise
+BtModDelPart=Suppression des participations
+BtModDelMat=Suppression des matériels loués
+BtSaiseParticipation=Sélectionner ce choix Activité - Participant
+BtSaiseParticipationPART=Sélectionner ce choix de l'activité 
+BtSaiseParticipationACT=Sélectionner ce choix du participant
+AnnuleDepart=Annulation d'un départ non réalisé
+QuestionDepart=Voulez-vous annuler le départ %s du %s et les participations qui lui sont associées?
+TiListParticipants=Liste des participants
+ErrPartDep=Participant et Depart
+AlModifFactureInsc=Alerte - Pensez à refaire la facturation du bulletin,après cette suppression de participation
+AlModifFactureLoc=Alerte - Pensez à refaire la facturation du bulletin,après cette suppression de location
+NegActuelle=Négociation actuelle standard
+EvntNonSup=Evenement non supprimé - vérifié GooleAgenda
+
+#Inscription - Paragraphe Créer un nouveau départ
+BtNouveauDepart=Nouveau Départ
+Depart=Départ
+CreerDepart=Créer le départ
+Moddepart=Modifier le départ
+Affdepart=Départ
+ListPartdepart=Liste des participants du départ
+DepHeureDeb=Début
+DepHeureFin=Fin
+DepNvSite=Nouveau site
+PrixGroupe=Prix de groupe		
+NumberPlaceAvailableShort=Nombre de places	
+RdvPrincipal=Rendez-vous principal
+AlterRdv=Notre Conseil
+Fic_infos=Feuille de route du site
+TypeTVA=Type de TVA
+#PuExclu=Prix d'un départ "Exclu"
+DurAct=Durée (h)
+LibBuAband=Commande 4 saisons abandonnée
+LibLoAband=Contrat abandonné
+LibStripeAband=Demande Stripe avortée
+LibCreatAcompte=Création acompte
+LibModAcompte=Modification acompte
+
+LibObsAbandonne=Bulletin abandonné par utilisateur
+LibObsAnnullClient=Bulletin annulé par le client
+
+LibErrBulAbandonne=Bulletin non abandonné
+LibErrBulAnnulClient=Bulletin non annulé
+
+LibNoteSessionAband=Penser à modifier le départ pour une mise à jour dans GoogleAgenda
+# Taille, Poids, Age.....
+BtLbEnrPoidsTaille=Enregistrer
+LbPartPoidsTaille=Précisions sur les participants
+LbConsigne=Préciser les prénoms, cela facilitera la répartition du matériel
+EchgTiPoidsTaillePublic=Info Poids et Taille: %s
+EchgTiPoidsTailleOK=Informations complètes
+EchgTiPoidsTailleMq=Manquent informations sur %s participation%s
+EchgLbPoidsTaillePublic=Saisies par %s
+PoidsTaillInterlocuteur=Pour vous joindre, laisser votre nom
+BtAffPoidsTaille=Age, Poids et Taille
+BtAffVeloTaille=Tailles et  numéros
+BtAffPoidsTailleSuite=Suite Age, Poids et Taille
+BtAffVeloTailleSuite=Suite Tailles et  numéros
+TiPrix=Prix avant remise
+
+DateLONonRenseigne=Date dépose/retrait non renseignée
+
+
+LibErrBulArchive=Bulletin non archivé
+LibErrLoArchiv=Contrat non archivé
+
+ErrCreBull=Erreur de création du bulletin
+ErrEnrDossier=Erreur d'enregistrement du dossier
+ErrUpader=Erreur d'enregistrement du Tiers
+ErrNomDos=Erreur dans l'enregistrement du nom du dossier par défaut
+
+#transfert dans Dolibarr
+LibEncReal=encadrement réalisé par
+Bulletin=Commande 4 saisons
+Tous=Bulletins/Contrats
+Materiel=Matériel: %s
+Marque=Marque: %s
+Ref=Réf: %s
+RefMat=Référence du matériel:%s
+ErrorTailleRequired=Taille du champ : %s obligatoire à %s
+Pour=pour %s
+Retrait=Retrait le
+retrait= - retrait le
+Le=Le
+le= - le
+depose= et dépose le
+Endate= En date du
+endate= en date du 
+
+
+AideModifInsc=Fiche du bulletin
+AideModifFct=Fiche de la facture
+
+DocSite=Documentation spécifique du site %s
+
+Afficher=Afficher
+#personne à prévenir
+PersRecours=Contact
+
+# gestion des erreurs
+ErrorCreate=Pas de création du départ
+ErrorMod=Pas de modification du départ %s
+ErrorMoniteurDepart=Pas d'affectation du moniteur au %s
+ErrorCal=Pas d'affectation du calendrier au %s
+ErrorLiblleEvent=Le libelle de l'événement n'a pas été modifié
+
+#message
+DeleteParticipation=Supprimer une participation
+DeleteRemise=Supprimer la remise
+DeleteParticipationMulti=Supprimer une série de participation
+DeleteLocMulti=Supprimer une série de matériel loué
+DeletePaiement=Supprimer un paiement
+AbandonResaLigne=Abandonner la saisie faite sur la ligne
+DeleteResaLigne=Supprimer la ligne de réservation
+ResaConfirmSupLigne=La ligne n° %s comporte des informations. Les autres lignes ayant le premier champ vide seront aussi supprimées. Voulez-vous vraiment les supprimer?
+
+#feuille de route
+GenFeuilleRoute=Générer la liste des participants
+VisFeuilleRoute=Visualiser la liste des participants
+AideSesBullEnCours=Les participants de certains bulletins concernant cette activité n'ont pas été (pré)inscrits ( bulletin encore en cours)
+CalSessErr=du calendrier du départ %s a été réinitialisé. Or il est 
+WarningPaiementReservation=Réservation non faite DONC écriture Dolibarr non intégrée
+ErrremiseCreat=Remise non enregistré
+ErrTotalFacture=Total de la facture %s non valide
+			
+# dictionnaire
+DictTablPoids=4 saisons - Table des poids
+DictTab2Raisonremise=4 saisons - Table des raisons origine des remises
+DictTab3EtatResa=Location - Table des états de la réservation
+DictTab6PmtBanq=Mode de paiement et Banque
+DictTab4DureLoc=Location - Table des durées de location 
+DictTab5PieceContrepartie=Location - Pièces identités et autre contrepartie
+DictFlType=Type (Fixe ou pourcentage)
+fl_type=Type (Fixe ou pourcentage)
+Fl_type=Type (Fixe ou pourcentage)
+DictFlType1=Type
+DictFKProduit=Produit Remise
+fk_produit=Produit Remise
+Fk_produit=Produit Remise
+
+
+#Départ
+LbStatFisc=Statut fiscal
+ChoixSsTVA=Soumis à TVA partielle 
+ChoixTVA=Soumis à TVA totale
+PrixAdulte=Prix Adulte
+PrixEnfant= Prix Enfant
+PrixExclusif=Prix Exclu
+Euro=€
+AfficheDepart=Affichage du départ
+InfoStatutFiscal=TOTAL si la facture concernant cette activité doit faire apparaître la TVA totale.<br> PARTIELLE si la facture de l'activité ne fait pas apparaître de TVA
+LbCdVentil=Code de ventilation
+LbEnCoursInscrit=envisagée%ssur bulletin en cours de préparation
+LbInscrit=inscrit
+LbPreInscrit=pré-inscrit
+
+
+Lcglinscription=Inscription
+LcglinscriptionFct=Facturation et Archive CAV
+Lcglreservation=Réservation
+LcglreservationLst=Liste Réservation
+Lcgllocation=Location
+LcgllocationLst=Liste Location
+LcgllocationMatLoue=Location - Atelier
+LcglVeloLst=Liste Vélos
+LcglIntLst=Liste Interventions Atelier
+Edicontrat=Edition du contrat
+LTiersActivite=Activité du client
+
+
+#edition
+DocBull=Bulletin d'Inscription
+
+#facturation
+LbParticipants= participant%s
+AvBukll=Avoir sur commande 4 saisons
+RembTropPercu=Remboursement de sommes trop perçues
+FactBull=Facture payée et commande 4 saisons archivée
+ErrFactPaye=Impossible de positionner la facture à Payée  -  erreur sur trigger'
+ErrIdFactPerdu=Identifiant facture perdu
+ErrSQL=Erreur dans l'ordre SQL
+BullNonPayeTot=La commande 4 saisons n'a pas été entièrement payée.
+BullAvoirFait=Trop payé. Vérifier si un avoir a été fait
+BullNonPaye=La commande 4 saisons n'a pas été payée.
+BullsansMonit=Le moniteur n'a pas été renseigné
+ConfirmSupBull=Voulez-vous supprimer la commande 4 saisons %s ?
+ConfirmSupResa=Voulez-vous supprimer la réservation %s ?
+ConfirmSupCnt=Voulez-vous supprimer le contrat %s ?
+ConfirmRefusAnul=<b>L'abandon entrainera la transformation des paiements en facture sur Produit Frais d'annulation<b>"
+ConfirmAbnCnt=Cette opération est irrémédiable, on ne pourra plus facturer - Voulez-vous abandonner le contrat 
+ConfirmAbnBull=Cette opération est irrémédiable, on ne pourra plus facturer - Voulez-vous abandonner la commande 4 saisons 
+ConfirmAbnResa=Cette opération est irrémédiable, on ne pourra plus facturer - Voulez-vous abandonner la réservation
+LbActAbdBull= suite à l'abandon d'une commande 4 saisons ou contrat
+OrderCancelInDolibarr=%s abandonnée suite abandon du bulletin/contrat
+FactureCancelInDolibarr=%s abandonnée suite abandon du bulletin/contrat
+AnnulClient=Annulation par le Client
+AnnBullCours=Annulation du bulletin
+ConfirmRefusAnulCl=Attention, le statut ANNULER PAR LE CLIENT implique que, lors de la facturation, une facture avec Produit 'Frais d'annulation' sera créée payée par les acomptes actuels.
+ConfirmAnuCl=Le client ne sera pas remboursé. Est-ce OK?
+DefAbandon=Abandon manuel:
+FacPaye=Montant réglé
+FacDu=CA
+FacRegle=Réglé
+Facture=N° Facture
+Archive=Archivée
+AFacturerInsc=Facturer les bulletins
+AFacturerLoc=Facturer les contrats
+AArchivBull=Archiver les bulletins/contrats
+AArchiveRap=Archiver ce rapport
+ColFacture=Facturé
+ColArchive=Archivé
+FactErrone=Facturation demandée incorrectement aboutie; Voir le dernier rapport de facturation 
+AlertEcranInsc=ATTENTION, un bulletin archivé ne pourra plus être facturé
+AlertEcranLoc=ATTENTION, un contrat archivé ne pourra plus être facturé
+
+FacturationFinie=Facturation finalisée
+DateFacturation=Date facturation
+
+CancelBull=Archiver un bulletin
+ConfirmCancelBull=Êtes-vous sûr de vouloir annuler/archiver les bulletins/contrats sélectionnés ?
+ConfirmCancelBullQuestion=Pour quelle raison voulez-vous classer les bulletins/contrats abandonnés/archivés ?
+ConfirmClassifyBullPartiallyReasonBadCustomerDesc=Un <b>mauvais payeur</b> est un client qui refuse de régler sa dette.
+ConfirmClassifyBullPartiallyReasonBadCustomer=Mauvais payeur
+ConfirmClassifyAbandonActivite=Activité non réalisée
+ConfirmClassifyAbandonActiviteDesc=Ce choix sera celui choisi dans le cas où n'aura pas pu être effectuée l'activité (ex annulation via-ferrata, report location vélo) 
+
+ConfirmClassifyAbandonReasonOther=Autre
+ConfirmClassifyAbandonReasonOtherDesc=Ce choix sera celui choisi dans tout autre cas. Par exemple suite à l'intention de créer une facture de remplacement.
+
+ErrPaimtFact=Paiement de la facture impossible
+IdentPaiemnt=Id Paiement : %s
+IdentPaiemntStripe=Id Paiement par Stripe : %s
+ErrFactGenFact=Erreur à la génération facture - Code: %s
+ErrFactCreate=Création de la facture impossible retour = %s
+ErrFactTotauxFaux=Les totaux de la facture sont erronées
+ErrFactExistFact=Impossible de trouver la facture id = %s
+ErrFactValidNok=La facture de %s n'a pas pu être validée
+ErrFactLigSup=La ligne de la facture correspondant à la participation %s  n'a pas été supprimée
+ErrFactLigAj=La ligne de la facture correspondant à la participation %s  n'a pas été ajoutée
+ErrFactLigMod=La ligne de la facture correspondant à la participation %s  n'a pas été modifiée
+ErrFactIndeterminee=Erreur indéterminée retour: %s
+AideBulVide=Bulletin vide - Facture non créée
+ErrFactMonAbs=Moniteur Absent sur l(es)'activité(s) %s
+ErrFactVentilAbs=Code Ventilation manquant sur l(es)'activité(s) %s
+ErrFactAcptRemExpNok=Acompte %s non transformé en remise   ou erreur d'ordre SQL - Voir si l'acompte a été transformé en remise
+#ErrFactArchiveNonAboutie=Attention, la facture %s du %s n"a pas pu être traitée, %s a toute fois été abandonné/archive
+
+# Envoi Comptable
+EnvoiFactureComptable=Envoi des factures au comptable
+EnvoiFacDeb=Numéro de la première facture à envoyer
+EnvoiFacFin=Numéro de la dernière facture à envoyer
+GenererFacture=Générer le fichier des factures
+EnvoiComptable=Envoi au comptable
+
+# Menu location
+TitreLocation=Location
+Titreretour=Retour de location
+NvContrat=Nouveau contrat
+GestLocation=Locations - Paramétrage
+AdmLocation=Gestion des Locations
+AideModifLoc=Fiche  du contrat
+AideModifMon=Moniteur
+LstLoc=Locations en cours
+LstLocMat=Matériels loués
+LstLocRet=Contrats non clos mais en retour
+LstCaution=Cautions détenues par CAV
+LstResa=État d'avancement des réservations
+LstMatExt=Liste du matériel reloué
+LstRando=Liste randos
+LstMatMad=Liste des accessoires
+FacturationLoc=Facturations des Locations
+ArchivageLoc=Archivage des locations
+MenArchive=Archive
+MenuGenComp=Génération pour comptabilité
+LgFactListeCnt=Cette liste reprend les contrats de locations clos et attendant une facturation. 
+LgFactListeInsc=Cette liste reprend les inscriptions attendant facture. 
+ListeDesAnneesPasses=Archives, liste des années passées
+ErrDateErronne=La date départ est postérieure a la date retour
+
+# Réservation
+TitreReservation=Réservations
+Nvresa=Nouvelle réservation
+Nvligne=Nouvelle ligne
+AideModifResa=Fiche de la réservation
+AideModifTiers=Fiche  du client
+AideModifDossier=Dossier de suivi %s
+ArchiveResa=Réservations de l'année
+ArchiveHistResa=Historique des réservations 
+DetailResaActivite=Détail de l'activité réservée
+InfoResa=Parcours choisi
+ResaActivite=Activité précise
+Datec=Date
+DateDep=Date de départ
+SuiviActivite=Suivi Activité
+
+
+ResaLbValider=Réservation actée
+ResaLbAbandon=La réservation sera abandonnée
+ResaLbReouvrir=Réouvrir la réservation
+ResaReouvrir=Réouvrir
+ResaLbClore=Clôturer la réservation
+ResaClore=Clôturer
+
+EdiResa=Édition du billet de réservation
+LbResParticipant=décrire ici, le type de participants (adulte/enfant, age si nécessaire...) 
+LbResSupLig=Vider la cellule entraînera la suppression de la ligne
+DefResObservation=Pour le canoë, décrire ici les bateaux nécessaires
+DefResaPrix=Pour le canoë, décrire le calcul du prix - inutile pour la balla en âne et l'accrobranche
+DefResaQte=Pour l’accrobranche et la ballade en âne, indiquer le nombre de personnes décrites dans la cellule Participants - inutile pour le canoë
+canoe=canoë
+ane=âne
+acrobranche=accrobranche
+DateResaDeb=Date activité
+DateResaFin=Date de fin
+
+# Saisie location
+ContratLoc=Contrat de location
+DOCContratLOC=Contrat de Location
+DOCResa=Billet de réservation
+CGV=Conditions de vente
+AutreDoc=Autre document
+BonCommande=Bon de commande
+DocAutoPar=Autorisation parentale
+NCont=N° Contrat
+CreerContratLoc=Créer le contrat de location
+RevenirContratLoc=Revenir au contrat de location
+AnnCntCours=Annulation du contrat
+BtModifTiers=Modifier les infos du client
+InfoLocation=parcours envisagé / informations publiques
+InfoLocationResa=Parcours et Restauration
+DefGroupIndLoc=Si Contrat Individuel, le prix est donné à chaque matériel loué - Si Contrat Groupe : le prix est donné une seule fois.
+DefGroupIndInsc=Pour un départ/bulletin "Exclu", choisir le type Groupe et modifiez le prix 
+ObsMatMad=Complément pour des accessoires non listé
+ObsRand=Zone permettant de saisir toute autre rando
+LocRetrait=Départ
+LocDepose=Retour
+LocDates=Dates prévues
+LocHeures=Heures prévues
+LocLieux=Lieux
+Depose=Date de Retour
+LbErrRetrait=La date de retour est antérieure à la date de départ
+Retrait=Date de départ
+LibBoutiqueCav=3, rue de l'Horloge 30120 Le Vigan
+LocResa=Réservation éventuelle de services annexes (restauration...)
+LbChgEtatResaStatut=Nouvel état
+LbChgEtatResaDate=en date du
+LibIntroHistoResa=<em>saisie de la suite</em>
+LocSttResa=Avancement de la réservation
+LocObsAdresseTransfert=Notes éditée sur le contrat dans la cse Observation. Vous pouvez inscrire ici l'adresse des transfert
+LocObsResaModele=Parcours - Lieu de restauration - Nombre de Places - Horaire - Observation
+LocGlbObs=Observation
+TitrDetLoc=Détail des matériels loués
+DupLocMat=Dupliquer le matériel loué
+Materiel=Matériel
+Location=Location
+TiNvMateriel=Nouveau matériel loué
+BtNelLigne=Louer un nouveau matériel
+MatSortis=Matériels sortis
+Service=Service
+Fournisseur=Fournisseur
+Marque=Marque
+RefVelo=Numéro du vélo
+NumVelo=Numéro
+VelosEnConflit=Conflit avec %s
+RefCnt=Référence du contrat
+VeloConflitLocation=Loué en double
+NomPrenom=Nom Prénom
+NomPrenomLoc=Nom Prénom
+ParticipantLoc=Participation
+Taille=Taille
+DateDeb=J/h Départ
+LieuRetrait=Retrait
+LBLieuRetrait=Lieu de départ et heure  de rendez-vous éventuel 
+DateFin=J/h Retour
+LieuDepose=Dépose
+LBLieuDepose=Lieu de retour et heure  de rendez-vous éventuel
+Duree=Durée
+ObsMat=Obs.
+PuTtc=PU TTC
+PtTtc=PT TTC
+Rem=Rem
+RemErrExist=Remise déjà existante
+Retour=Retour
+BtNelLigne=Nouveau matériel loué
+RetGen=Retour complet
+BtRetComplMat=Retour complet des vélos
+BtRetComplMad=Retour complet accessoires
+BtRetComplRando=Retour complet Topo guide
+BtRetComplCaut=Retour complet caution et pièce identité
+BtRetMatCpl=Retour complet des vélos
+BtRetMatPart=Retour partiel des vélos
+BtRetCpl=Retour total
+CntPreReserver=Pré-réserver
+CntValider=Réserver
+CntNonReserver=Non réserver
+CntLbPreValider=Réserver le contrat, matériel Pré-réservé
+CntLbValider=Valider le contrat, matériel Réservé
+CntLbNonReserver=Retour à l'état Pré-réservé
+BtAnnuler=Annuler
+BullAnnul=Supprimer définitivement  la commande 4 saisons en cours
+CntAnnul=Supprimer définitivement  le contrat en cours
+BuLbPreReserver=Annoncer sans assurance l'inscription à un départ
+BuNonInscrit=Non Inscrit
+BuLbNonInscrit=Retour à l'état Pré-inscrit
+
+
+CntDepartFait=Départ fait
+CntLbDepartfait=Indique le matériel sorti
+CntDepartNonFait=Départ non fait
+CntLbDepartNonFfait=Revient au statut Réservé
+CntClore=Clôturer
+Reouvrir=Réouvrir
+CntDesarchiver=Désarchiver
+BuLibDesarchiver=Ramener le bulletin à l'état Réservé
+CntLibDesarchiver=Ramener le contrat à l'état Clos
+
+BullLbValider=Valider l'inscription
+BulBtInscrire=Inscrire
+BtPreInscrit=Pré-Inscrit
+BuLbInscrire=Inscrire réservera les places au départ
+BuLbInscrireRefused=Sans activité, pas d'inscription
+CntLbInscrireRefused=Sans matériel loué, pas de réservation
+
+ReInscrire=Enregistrer les modifications
+PV=Prix vente
+
+
+TIPrixJour=Prix journée
+TIPrixDJour=Prix demi-journée
+LBPrixjournee=Pour saisir le prix d'un service sans prix ou que l'on veut modifié
+Facturation=Facturation
+CntLbDepart=Matériel parti, contrat en cours de réalisation
+CntRetour=Retour
+CntLbRetour=Matériel rentré
+CntLbClore=Clore le contrat, matériel rentré, caution et document rendu, prêt à facturer
+CntLbReouvrir=Réouvrir le contrat
+CntLbDesarchiver=Désarchiver le %s
+BtAbandon=Abandonner
+CntAnnuleClient=Client non venu
+CntLbAnnuleClient=Client non venu, ayant payé
+AbandonNonConnu=Configuration du bulletin inconnue - Voir avec l'analyste
+CntLbAbandon=Le contrat sera abandonné sans facturation
+BuLbAbandon=Le bulletin sera abandonné sans facturation
+Abandon=Abandon
+LbBtFact=Le %s ayant été facturé, il ne peut ête ni réouvert, ni desarchivé
+RefusAnul=L'abandon entrainera la transformation des paiements en facture sur Produit Frais d'annulation
+InfoExistActivite=Le %s ne doit plus comporter de participation
+InfoExistPaiement=Il existe un paiement.Pour l'abandonner, supprimer les participations, et cliquer sur 'Client non venu'
+InfoExistFacture=Le bulletin a une facture, il doit donc être archivé
+InfoBulAFacturer=Ce bulletin sera facturé
+InfoCntAFacturer=Ce contrat sera facturé
+InfoExistRemFixe=Il ne doit y avoir aucune remise fixe
+InfoExistMatLoue=Le contrat ne doit plus comporter de matériel loué
+InfoExistLocFacture=Le contrat a une facture, il doit donc être archivé
+
+Observation=Observation
+ObsTransf=Observation
+AdrTrans=Adresse pour ligne Transfert
+LbAdrTrans=Adresse du(des) Transfert(s)
+FactImpossible=Les montants facturés et encaissés sont différents 
+Qst=NON pour correction - OUI pour ARCHIVAGE car
+QstCntaFact=Contrat à corriger	ou à archiver tel quel, la facturation étant impossible	
+Annulet=Annuler
+LstDepInsc=Nb Place/Inscrit/Pre_Inscrit
+QstPBOdtPdf=Problème à l'édition du document
+
+
+Paiement=Paiement
+Encaissement=Encaissement
+NvEncais=Nouvel Encaissement
+NvStripeMail=Stripe/Mail
+NvStripeSMS=Stripe/SMS
+LibPmtLigne=Paiement en ligne
+LibPmtLigne=Paiement en ligne
+PmtNeg=Paiement(s) négatif(s)
+NumPaiement=Paiement n°
+NonRensg=non renseigné
+DefPmtNeg=Il existe un paiement négatif
+DefPmtNegs=Il existe des paiements négatifs
+InfoPmtRapproDepose=Ce paiement a été %s
+depose=déposé dans le bordereau  %s
+rapproche=rapproché
+LibPaiementLo=Paiement location - contrat: %s
+LibPaiementBu=Paiement 4 saisons - Bulletin: %s
+BtSupDemStripe=Supprimer la demande d'encaissement Stripe
+BtRelDemStripeMail=Relancer la  demande d'encaissement Stripe par Mail
+BtRelDemStripeSms=Relancer la  demande d'encaissement Stripe par SMS
+BtRmbDemStripe=Rembourser la  demande d'encaissement Stripe
+DemandesStripe=Liste des demandes d'encaissement Stripe
+NoEncais=Non Encaissé
+MontantStripe=Montant
+NomPayeur=Payeur
+MailPayeur=Mail ou SMS
+Acompte=Acompte
+DateEncais=Date d'encaissement
+LibRelanceStripeLe=Relancé %s fois et  le %s pour la dernière fois
+DateEnvoi=Date d'envoi
+DeleteStripe=Supprimer la demande Stripe
+ConfDemandeSupStripe=Demande de paiement par Stripe à %s (Montant : %s €) - ( Mail : %s)
+ComptPlusTard=<i>L'Url sera complétée à l'envoi du mail</i>
+
+ConfirmCancelPaieQuestion=Noter la raison du paiement négatif
+ConfirmPaieNeg=Valider cette raison
+
+InfoPrive=Informations privées
+Info=Informations diverses
+InfoActionFuture=Action à mener
+TxtInfoActionFuture=L'action à mener %s n'est pas finie
+ActFutur=Activité future
+BtModInfoPriv=Modifier Informations
+BtEnrInfoPriv=Enregistrer
+ProcRegl=Remarque concernant le règlement
+TxtProcRegl=La procédure de règlement %s n'est pas terminée
+DefObsPriv=Observation privée
+DefActionFuture=Action nécessaire
+TiObs=Info
+CautAcompt=Caution
+MttAcomptedemande=Montant de l'acompte à régler
+Mttcautionexigee=Montant de la caution exigée
+LbAcompte=Acompte
+BtCalculAcompte=Calcul de l'acompte
+LbCaution=Caution
+LbTopCaution=La caution a été reçue
+LbTopdocrecu=Documents d'identité
+DocRendu=Document rendu
+ObsCaution=Commentaire
+AllContrats=Total
+btInfSupTiers=Modifier Tiers
+TxtInfSupTiers=Origine et villégiature du tiers
+TitreRetGen=Retour complet
+AidBtRetGenMat=Pour les retours complets des matériels loués
+AidBtRetGenMad=Pour les retours complets des accessoires
+AidBtRetGenRand=Pour les retours complets des topos de randonnées
+			
+STT_STR_ENCOURS=Brouillon
+STT_STR_PRE_INS=Pré_réservé
+STT_STR_VAL=Réservé
+STT_STR_RES_RES==Pré_réservé		
+STT_STR_CLOS=Clôturé
+STT_STR_ABANDON=Abandonné	
+STT_STR_ANNULCLIENT=Client non venu
+CNT_STR_DEPART=Réalisé, matériel parti
+CNT_STR_RETOUR=terminé, matériel revenu
+CNT_STR_FACTURE=Facturé	
+CNT_STR_FACT_INC=Facturation non terminée	
+CNT_STR_ARCHIVE=Archivé
+
+
+BULL_STR_NON_PAYE=Paiement Non fait
+BULL_STR_INCOMPLET=Paiement Partiel	
+BULL_STR_PAYE=Paiement Total
+BULL_STR_SURPLUS=Paiement supérieur
+BULL_STR_REMB=Remboursement effectué sur trop payé	
+BULL_STR_FACTURE=Facturé
+BULL_STR_FACT_INC=Facturation non terminée
+BULL_STR_ARCHIVE=Archivé
+
+#Couleur
+ClPaveSaisie=ivory
+ClPaveTiersAff=white
+ClPaveBullAff=white
+ClBoutonDepart=white
+ClPaveInfo=white
+ClPaveParticipationAff=white
+ClPaveModifParticipation=white
+ClPavePaiementAff=white
+#ClPaveFinalisation=thistle
+ClPaveFinalisation=LavenderBlush
+BtValEdt=Validation et Edition
+
+# CHOIX du mod�le de contrat
+# il faudra venir mettre tout cela dans les table document_modele comme facture
+# il faut changer le libelle CntVelo1 dans  modules_cglinscription.php pour y mettre le nom du mod�le comme dans core/modules/doc/doc_location_odt.modules
+location=Contrat Vélo
+CntVelo1=
+CntVelo2=
+CntVelo3=
+# edition contrat
+LbAccNonPaye=Montant de l'acompte de réservation	à payer
+LbAccPaye=Montant de l'acompte de réservation payé		
+#liste Location
+ListeLocation=Liste des locations en cours
+ListeMat=Liste des matériels loués dans les prochains jours	
+ListeMatAuj=Liste des matériels loués aujourd'hui et dans les prochains jours	
+ListeMatHier=Liste de tous les matériels loués le %s
+ListeMatUltr=Liste des matériels loués et sortis le %s
+LbMatDehors=Contrats antérieurs non clôturés
+LbMatDepart=Départs du jour
+LbMatRetour=Retours du jour
+LbMatSorti=Sortis en ce moment
+
+
+ListeRet=Liste des contrats non clos		
+ListeCaut=Liste des contrats dont la caution n'a pas été rendue	
+ListeVeloExt=Liste du matériel sous-loués
+DateRetrait=Date de retrait
+ListeReservation=État des réservations
+Aujourd_hui=Aujourd'hui
+Demain=Demain
+Apres_demain=Après demain
+DateDepose=Date prévue de retour
+TiRegle=Règlement
+TiPaiement=Note Règl.
+TiAction=Suivi
+TiStatut=Statut
+TiBuFacture=Bulletin déjà facturé
+LbStatut=Dernier statut sélectionné
+TiStatutCnt=Statut du contrat
+TiInfoArchive=Origine de l'archivage forcé
+TiCreateur=Créateur=Action
+TiDepart=Départ
+TiCLoture=Clôturé
+TiDosActionEch=Dossier
+NbVelo=Nb Matériel loué
+materiel=Matériel
+NbRetour=Nb de pièces attendues
+caution=Montant de la caution
+TitreCaution=Documents pour caution
+DocCaution=Document remis par le client
+DocRendu=Document rendu au  le client
+CautRendu=Caution rendue au client
+ModCaution=Mode de règlement de la caution
+
+# Liste Velo
+ListeVelo=Liste des vélos CAV
+Mod=Modèle
+NCAV=N° CAV
+NFour=N° Fournisseur
+Nvx_velo=Nouveau vélo
+Nvl_interv=Nouvelle intervention
+
+# Liste Interventions
+ListeInter=Liste des interventions sur vélo
+Int=Intervenant
+Dateo=Date opération
+Odo=Odomètre
+Descpt=Description
+Comm=Commentaires
+VPR=Vélo Prêt à Rouler
+
+
+# materiel accessoires
+TitrMatMad=Accessoires
+TitrRando=Topo-guide des randonnées
+Qte=Quantité
+
+# rando
+Rando=Randonnée
+Prevue=Prévue
+# Dictionnaire
+DictionaryRando=Liste des topos randonnées
+DictionaryMatMad=Liste des accessoires
+
+# édition du contrat de location
+TiResa=Demande de réservation
+
+# PDF
+LibPdfLoc=Il faut transformer le contrat en PDF, en éditant le contrat
+LibPdfInsc=Il faut transformer le bulletin en PDF, en éditant le bulletin
+
+# réservation d'activité
+ListeResa=Liste des réservations en cours
+
+#MAILS et SMS
+SendContratByMail=Envoyer le contrat par mail
+SendBulletinByMail=Envoyer le bulletin par mail
+SendResaByMail=Envoyer la réservation par mail
+SendStripeByMail=Préparer la demande paiement Stripe pour envoi par Mail
+SendContratBySMS=Envoyer le contrat par SMS
+SendBulletinBySMS=Envoyer le bulletin par SMS
+SendResaBySMS=Envoyer la réservation par SMS
+SendContratRef=Votre location de vélos n° %s
+SendBullRef=Votre inscription activité nature n° %s
+SendResaRef=Votre réservation activité nature n° %s
+PredefinedMailContentSendContrat=Bonjour\n\nSuite à votre réservation, vous trouverez ci-joint le __BULREF__. \nAu départ de la location, nous vous demanderons la signature du contrat, un chèque de caution et une pièce d'identité, restitués à votre retour.\nNous sommes à votre disposition pour toute question complémentaire.\n\nCordialement\n\nl'équipe Cigale Aventure \n\n__SIGNATURE__
+PredefinedMailContentSendBulletin=Bonjour\n\nSuite à votre inscription, vous trouverez ci-joint le __BULREF__ et votre feuille de route pour votre activité.\n\nNous vous invitons à vérifier que les date et heure indiquées dans le bulletin correspondent bien à la réservation faite.\n\nNous sommes à votre disposition pour toute question complémentaire.\nNous vous souhaitons une belle activité et un bon séjour.\n\nCordialement\nl'équipe Cigale Aventure \n\n__SIGNATURE__
+SelectSMSModel=Sélectionner un modèle de SMS
+
+
+CGL_REF=Référence du BU/LO/RESA
+CGL_CLIENT_NAME=Nom du tiers
+CGL_TOTAL_PAYE=Total encaissé
+CGL_TOTAL_FACTURE=Total Facturé
+CGL_RESTANT_A_PAYER=Solde
+CGL_URL_POIDS_TAILLE=Url à destination du client pour NomPrénom/Age/Poids/taille
+CGL_LOC_CAUTION=Montant de la caution
+CGL_LOC_LIEU_RETRAIT=Lieu du retrait du matériel
+CGL_LOC_LIEU_DEPOSE=Lieu du retour du matériel
+CGL_LOC_DATE_DEPART=Date du retrait du matériel
+CGL_LOC_HEURE_DEPART=Heure du retrait du matériel (format HH:MM)
+CGL_LOC_HEURE_FR_DEPART=Heure du retrait du matériel (format HHh MM)
+CGL_LOC_DATE_RETOUR=Date du retour du matériel
+CGL_LOC_HEURE_RETOUR=Heure du retour du matériel (format HH:MM)
+CGL_LOC_HEURE_FR_RETOUR=Heure du retour du matériel (format HHh MM)
+
+CGL_STRIPE_NOM_PAYEUR=Nom du payeur de l'URL envoyée à Stripe
+CGL_STRIPE_MONTANT=Nom de la demande de paiement à Stripe
+CGL_STRIPE_MAIL_PAYEUR=Mail du payeur à qui envoyer l'URL Stripe
+CGL_STRIPE_URL=Url Stripe permettant le paiment
+
+	
+CGL_LG_INSC_ACTIVITE=Nom du départ
+CGL_LG_INSC_RDV=Lieu de rendez-vous
+CGL_LG_INSC_CONSEIL=Nos conseils
+CGL_LG_INSC_SITE=Site de pratique
+CGL_LG_INSC_LOC_SITE =Url de localisation du site
+CGL_LG_INSC_NB=Nombre de participations
+CGL_LG_INSC_NB_ENF=Nombre d'enfants
+CGL_LG_INSC_NB_ADLT=Nombre d'adulte
+CGL_LG_INSC_MONITEUR_NOM=Nom du Moniteur
+CGL_LG_INSC_MONITEUR_TEL=Téléphone du Moniteur
+CGL_LG_INSC_MONITEUR_MAIL=Mail du Moniteur
+CGL_LG_INSC_DATE_DEB=Date de début
+CGL_LG_INSC_HEURE_DEB=Heure de début (format HH:MM)
+CGL_LG_INSC_HEURE_FR_DEB=Heure de début (format HHh MM)
+CGL_LG_INSC_HEURE_FIN=Heure de fin (format HH:MM)
+CGL_LG_INSC_HEURE_FR_FIN=Heure de fin (format HHh MM)
+
+CGL_LG_LOC_NB_MAT=Nombre de matériels loués
+CGL_LG_LOC_TYPE_MAT=Type de matériel loué
+
+CGL_RESA_ACT=Activité de la réservation
+CGL_RESA_DATE=Date de l'activité de la réservation
+CGL_RESA_HEURE=Heure de l'activité de la réservation
+
+SubMonNonDedigne=Moniteur non encore désigné
+
+SMS=SMS
+SMSs=SMSs
+SendSMS=Envoyer SMS
+
+SMSErrorsTo=tata
+SMSReply=tutu
+SMSCC=toutou
+WarningIfYouCheckOneRecipientPerSMS=tantan
+GroupSMSs=tenten
+SMSToUsers=tuitui
+ErrorNoSMSDefinedForThisUser=Téléphone mobile non défini pour cet utilisateur
+SMSFrom=tointoin
+SMSTestSubstitutionReplacedByGenericValues=tete
+AideFichierSMSBInscription=tintin
+AideFichierSMSBInscriptionBis=tuntun
+SMSSuccessfulySent=titi
+ErrorFailedToSendSMS=toto
+
+#HOOK
+MailToBulletin=Pour l'envoi d'email à partir du bulletin
+MailToContrat=Pour l'envoi d'email à partir du contrat
+MailToSuivi=Pour l'envoi d'email à partir du suivi
+MailToResa=Pour l'envoi d'email à partir d'une réservation
+SMSToBulletin=Pour l'envoi d'un SMS à partir du bulletin
+SMSToContrat=Pour l'envoi d'un SMS à partir du contrat
+SMSToSuivi=Pour l'envoi d'un SMS à partir du suivi
+SMSToResa=Pour l'envoi d'un SMS à partir d'une réservation
+
+# 
+#CCA :  les autres variables n__PERSONALIZED__, __CONTACTCIVNAME__,, on verra si on doit les utiliser à l'usage, donc tu peux les supprimer.
+#CCA : __BULREF__ contient le numéro du bulletin ou contrat
+# CCA:  __SIGNATURE__ contient la signature définie pour le user Dolibarr
+AideFichierMailBInscription=Les CGV doivent être  dolibarr_documents/cglinscription/CGV sous les noms %s.pdf
+AideFichierMailBInscriptionBis=<br>La feuille d'autorisation de mineur doit être placée dans dolibarr_documents/cglinscription/Autorisation sous le nom  autorisation.pdf
+
+
+AideFichierSMSBInscription=
+AideFichierSMSBInscriptionBis=
+
+# Vérification
+LibVerifTestPresenceEcr=Vérification de la présence des écritures correspondant aux paiements des bulletin/Contrat
+LibVerifFactTVAOK=Afficher les factures dont la TVA n'est pas cohérente 
+LibVerifDetFactTVAOK=Afficher les lignes de facture dans la TVA est différente de celle du produit concerné
+
+LibTestLOErrTVA=Afficher Facture de location de vélos avec TVA nulle
+LibTestFctCodeVentilation=Lignes de factures sans code de ventilation
+LibTestErrTVACompteGestion=Affichage TVA facturée sur ligne facture libre (sans produit)  et code de ventilation -
+LibTestErrTVACompteGestion1= Le libellé du compte de ventilation est-il cohérent avec la TVA saisie dans la ligne de facture (sans soute saisie en ligne libre, car sans produit)?
+LibTestErrTVACompteGestion2= Attention : repasser cette requête, car la recherche du  nombre de taux de TVA erroné a été limité à 2. Après correction d'un des taux erroné, on pourrait voir apparaître un nouveau taux
+LibTestDepCodeVentilation=Afficher la liste des bulletins ayant générés des facture sanscode de ventilation
+TxTVAFacture=Taux TVA facturé
+TxTVAFacture=Description de la ligne de facture
+EnrVide=Aucune ligne saisie à priori dans Dolibarr  avec montant facturé
+MenuVerifEcriture=Présence écritures
+MenuVerifTVAFAC=Cohérence de la TVA dans facture
+MenuVerifDetTVAFAC=TVA des factures et produits
+MenuTestLOErrTVA=Location TVA nulle
+MenuTestDepCodeVentilation=Départs sans code ventilation
+MenuTVACompteGestion=TVA et code de ventilation
+
+LibTestEcrWZRapp=Test de cohérence des écritures d'un bordereau de dépôt des tickets WZ et de l'écriture de virement vers CEPLR
+LibTestTestEcrWZRapp1=Liste des écritures dont on ne trouve pas le virement avec le nom prévu (bordereau + '_' + évènement)
+LibTestTestEcrWZRapp2=Liste des virements WZ dont le début du libellé n'est pas un bordereau
+LibTestTestEcrWZRapp3=Liste des bordereaux qui n'ont pas de virement correspondant
+LibTestEcrANCVRapp=Test de cohérence des écritures d'un bordereau de dépôt ANCV  et de l'écriture de virement vers CEPLR
+TestTestEcrANCVRapp1=Liste des bordereaux qui n'ont pas de virement correspondant
+TestTestEcrANCVRapp2=Liste des virements de ANCV vers CELR ne correspondant à aucun bordereau de dépôt - A REVOIR
+TiTestTestEcrWZRapp1=Label du virement attendu et non trouvé
+LibTestFactPayee=Bulletin non archivé avec Facture réputée payée 
+TestFactPayee=Liste des bulletins non archivés avec Facture réputée payée  (voir Claude)
+TestFactPayee1=Liste des  Facture réputée payée avec bulletins non archivés  (voir Claude)
+TestFactPayee2=Liste des factures réputée impayée dont les paiements correspondent au total de la facture
+TestFactPayee3=Liste des factures à 0
+
+LibRecupEcritureStripe=Récupération des écritures Stripe avant rapprochement sur la plage
+LibRecupEcritureStripe2=Récupération des écritures Stripe avant rapprochement du %s au %s
+LibDateDeb=Date de début (aaaa-mm-jj) : 
+LibDateFin=Date de fin (aaaa-mm-jj) :	
+MenuTestRecupStripe=Rapprochement Stripe
+
+NbRemise=Nb Remises
+MttRemise=Montant
+Annee=Année
+TiVerifiAnalRemise= Analyse Remises
+AccompteAvecRemb=RemboursemmentHorsStripe
+AnalyseRemboursement=Remboursement
+
+x10=Multiplier par 10
+-TVA=Enlever la TVA
+LibSaisie=Saisir un montant : 
+LibBoutons=Exercice de mise en place de boutons 
+
+
+TiConflitLocVelo=Vérification des conflits de location
+
+# Export
+CglExportStatInscription=Export des statistiques des Inscriptions
+CglIdSession=Identifiant départ
+CglIdMoniteur=Identifiant Moniteur
+CglCodeVentil=Code Ventilation
+CglTiers=Structure Moniteur
+CglNomMoniteur=Nom moniteur
+CglCodeVentilMon=Code Ventilation Moniteur
+Cglsemaine=Semaine
+Cglmois=Mois
+CglDepartement=Code du département
+CglNomDepart=Nom du départ
+CglDateretrait=Date de retrait du matériel
+CglVelo=Service du matériel
+CglCodePostal=Code Postal du client
+CglLieu=Site
+CglTypeDepart=Type de départ
+CglNbAdulte=Nombre Adultes
+CglNbEnfant=Nombre Enfants
+CglPrixVente=Prix de vente
+CglDate=Date du départ
+CglCodeVentilSession=Code Ventilation du départ
+CglAnnee=Année des statistiques
+CglCoutMonitHT=Cout Moniteur par bulletin
+CglMargeHT=Marge HT
+CglPourcMonit=Coût négocié Moniteur (Pourcentage)
+CglFixMonit=Coût fixe du moniteur
+CglPartMoniteurHT=Coût HT du Moniteur par facture des bulletins
+CglFactureDol=N° Facture du moniteur (Dolibarr)
+CglFactureMon=N° Facture du moniteur (référence du moniteur)
+CglMontiAssujetiTVA=Statut fiscal du moniteur
+CglCategorieDepart=Catégorisation du départ à client unique(cf tag client) 
+
+CglDepartDetail=Environnement Départ
+CglMonitDetail=Environnement Moniteur
+CglTiersDetail=Environnement Tiers 
+CglFacture=Environnement Facture
+ExportDataset_session=Agefodd - Export départ
+AccompteAvecRemboursement=Export Acompte avec remboursement sur compte bancaire autre que Stripe
+ExportMailTiers=Export des mails des tiers en viue d'une campagne de communication
+	
+#Facture moniteur
+AideSaisieFixeMoniteur=Pour un moniteur assujetti, le fixe est HORS TAXE	
+AideSaisiePourcentMoniteur=Pourcentage payé au moniteur
+AidePartMoniteurACT=Dans le cas d'une négociation au pourcentage, le Coût et calculé sur la somme des prix de ventes des participations à ce départ
+AidePartMoniteurBrute=Calculée sur les factures des  bulletins
+Moniteur=Moniteur
+SsMoniteur=sans moniteur
+StatutFiscal=Assujetti
+Site=Site
+Fixe=Fixe
+AideTVACollectee=TVA sur Prix de vente
+AideTVACommission=TVA sur marge
+
+Nego=Négociation
+PrixVenteTTC=PV
+PartMonitBrute=Coût
+partmonitAct=Coût sur Activité
+margeTTC=Marge TTC
+margeHT=Marge HT
+MargeBrute=Marge brute
+PartMonitHT=Coût HT
+PrixVenteHT=PV.HT
+Facture=N°
+FactMont=Facture Moniteur
+FctTTC=TTC
+FctHC=HT
+FctTVA=TVA
+FctPay=Payée
+TVAColl=Collectée
+TVACollecteeSurCommissionnement=Commission
+Nbs=Nb Place/Inscrit
+ID=Ident.
+AgfMenuSessFact=Départs payables ou payés au moniteur
+
+#Activité
+LstActClient=Liste des activités suivies par le client
+LstContratClient=Liste des contrats Vélo passés avec le client
+LstinscriptionsClient=Liste des inscriptions effectuées par le client
+LstResaClient=Liste des réservations faites pour le client
+LstAvoirAcomptet=Liste des acomptes disponibles, dûs au client ou des avoirs consentis et non utilisés
+DateActivite=Date de l'activité
+RefResa=Référence de la réservation
+NomActivité=Activité retenue
+NbPart=Nb de participants
+
+# Boite de recherche menu gauche
+SearchIntoBulls=Bulletins
+SearchIntoLocs=Contrats
+SearchIntoResas=Réservations
+
+# Verification Export
+LibVerif1=Vérifier que toutes les lignes des bulletins/contrats soient sur une ligne de facture	
+ResulVerif1=Le résultat doit être vide. Sauf si certaines lignes ont été ajoutées ou supprimée là la main dans le coeur Dolibarr. A ce moment, une indication est notée dans le BU/LO ou dans les notes de la facture
+LibVerif2= Vérifier que toutes les lignes de facture ont un compte de ventilation
+ResulVerif2=Le résultat doit être vide 
+LibVerif3=  vérifier que tous les liens paiement de BU/LO - écriture de Dolibarr sont renseignés
+ResulVerif3=Le résultat doit être vide sinon certaines écritures se sont perdues. A travailler avec le développeur et le  gestionnaire des données. 
+LibVerif4= Lister les factures dont le montant ne  correspond pas au bulletin
+ResulVerif4=Le résultat doit être vide.Sauf si certaines lignes ont été ajoutées ou supprimées là la main dans le coeur Dolibarr. A ce moment, une indication est notée dans le BU/LO ou dans les notes de la facture
+LibVerif5= Vérifier que les comptes ANCV et WZ sont à Zero.
+ResulVerif5=Si ce n'est pas le cas, voir les écritures non encaissées et faire correspondre les factures, qui seront réputées 'non entierement payées'
+LibVerif6=  Lister les détails de facture dont le libellé présente 'ncadr'  afin de voir ceux où le moniteur manque
+ResulVerif6=
+BuRef=BU/LO
+FctRef=Facture
+NbFctdet=Nb Lignes Facture
+NbLig=Nb Lignes BU/LO
+IdBq=Identifiant de l'écriture
+TotFct=Montant facturé
+TotBu=Montant total du BU/LO
+CodeCmpt=Code Comptable
+LibLigFact=Libelle Ligne de facture
+AnalyseRemise=Analyse des remises
+
+#admin
+FlRegroup=Type de paiement  qui utilise la procédure de bordereau de dépôt (<i>ex chèque</i>)
+fl_regroup=Ecritures regroupées
+Fl_regroup=Ecritures regroupées
+FlRegroupNeg=Permet d'intègrer dans le bordereau de dépôt, les évritures négatives (<i>ex Stripe</i>)
+fl_regroupneg=Ecritures à valeur négative
+Fl_regroupneg=Ecritures à valeur négative
+Fk_cpt_bq=Compte bancaire associé
+fk_cpt_bq=Compte bancaire associé
+
+#Rapport budgetaire
+TiRpportCAEncaisSecteur=Chiffres d'affaires encaissé par secteur
+
+CglCalcModeEngagement=Analyse des lignes de factures enregistrées 
+CglWarningReport=Attention : ce rapport est  basé sur la facturation et ne contient donc pas les écritures manuelles qui lui ont été ajoutées. Si vous voulez ajouter ces écritures, valoriser la variable CGL_RAP_SUIVIACT_AVEC_PMT_DIVERS dans l'administration du module '4 saisons'.
+
+CglRulesCAIn=- Il inclut les lignes des factures.<br>- Il se base sur la date de création de ces factures<br>
+TypeRapport=Type de rapport
+TypeRapCA=Chiffre d'affaire
+TypeRapChrg=Charge
+TypeRapM=Marge
+Selectionner=Selectionner
+
+
+DepositsAreNotIncluded=Les factures d'accomptes ne sont pas incluses
+Sectorisation=Liste Secteurs sélectionnés
+BtSecteur=Secteur
+BtSSSecteur=Sous Secteur 
+
+# accent
+# https://fr.wikibooks.org/wiki/Le_langage_HTML/Entit%C3%A9s
+Accent cl�tur�e=clôturée
+Accent �tre=être 
+Accent Etes=Êtes
+Accent s�r=sûr
+Accent �=Î
+Accent o�=où
+Accent �=à
+Accent �= è
+Accent �=Ú
+Accent �=°
+Accent �=ï
+Caractère �=ç
+
+
+
+# comment noter � et �
